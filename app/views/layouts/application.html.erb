@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Adquisiciones Bar Moe</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+  	<header>
+  		<nav class="be-blue white large-padding">
+  			<ul class ="no-list row center-xs">
+  				<h1 class="no-margin" id="logo">Bar Moe</h1>
+  			</ul>
+  		</nav> 
+  	</header>
+    <%= yield %>
+  </body>
+</html>
